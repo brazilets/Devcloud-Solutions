@@ -1,0 +1,149 @@
+.feedback__inner {
+	display: flex;
+	margin-bottom: $margin-blocks;
+}
+
+.feedback__support {
+	padding: 36px 130px 52px;
+	min-width: 47%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	backdrop-filter: blur(8px);
+	background: $support-bg;
+}
+
+.feedback__img {
+	margin-bottom: 15px;
+	width: 100px;
+	height: 100px;
+}
+
+.feedback__text-name {
+	margin: 0;
+	font-size: 20px;
+	line-height: 37px;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+}
+
+.feedback__text-post {
+	margin-bottom: 28px;
+	font-weight: 300;
+	letter-spacing: 0.03em;
+}
+
+.feedback__text-quote {
+	margin-bottom: 53px;
+	padding: 0 20px;
+	font-weight: 300;
+	font-size: 16px;
+	letter-spacing: 0.03em;
+	text-align: center;
+	color: $color-matterhorn;
+	text-align: center;
+}
+
+.feedback__icon {
+	margin-bottom: 10px;
+}
+
+.feedback__text-date {
+	font-weight: 300;
+	font-size: 16px;
+	letter-spacing: 0.03em;
+	color: $color-dim-gray;
+	margin: 0;
+}
+
+.feedback-form {
+	padding: 75px 100px 69px;
+	background-image: $form-bg;
+	min-width: 53%;
+	display: flex;
+	flex-direction: column;
+	gap: 62px;
+}
+
+.feedback-form__title {
+	margin: 0;
+	font-weight: 400;
+	font-size: 36px;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	text-align: center;
+	color: $secondary-color;
+}
+
+.feedback-form__item {
+	display: flex;
+	justify-content: space-between;
+}
+
+.feedback-form__input {
+	padding: 10px 17px;
+	width: 43%;
+	font-size: 18px;
+	background-color: inherit;
+	color: $secondary-color;
+	border: none;
+	border-bottom: 1px solid $secondary-color;
+	outline: none;
+}
+
+.feedback-form__input:nth-child(3) {
+	width: 100%;
+}
+
+.feedback-form__input::placeholder {
+	font-weight: 400;
+	font-size: 18px;
+	letter-spacing: 0.03em;
+	text-align: start;
+	color: $color-placeholder;
+}
+
+.feedback-form__label {
+	top: 16px;
+	left: 17px;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 0.03em;
+	color: $color-placeholder;
+	position: absolute;
+}
+
+.feedback-form__inner {
+	position: relative;
+}
+
+.feedback-form__textarea {
+	width: 100%;
+	height: 158px;
+	padding: 51px 17px 22px;
+	font-weight: 300;
+	color: $color-placeholder;
+	background-color: inherit;
+	border: none;
+	border: 1px solid $secondary-color;
+	border-radius: 13px;
+	resize: none;
+}
+
+.feedback-form__textarea::placeholder {
+	color: $color-placeholder;
+}
+
+.feedback-form__textarea-btn {
+	position: absolute;
+	right: 6px;
+	bottom: 12px;
+	cursor: pointer;
+	background-color: inherit;
+	border: 0;
+}
+
+.feedback-form__textarea-btn:nth-child(1) {
+	right: 51px;
+}

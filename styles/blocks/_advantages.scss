@@ -1,0 +1,41 @@
+.advantages__list {
+	display: flex;
+	justify-content: center;
+	gap: 184px;
+	margin-bottom: $margin-blocks;
+}
+
+.advantages__item {
+	position: relative;
+	width: 205px;
+}
+
+.advantages__item::after {
+	content: "";
+	position: absolute;
+	top: 57px;
+	right: -154px;
+	width: 114px;
+	border: 3px solid $accent-color;
+	transform: rotate(-90deg);
+}
+
+.advantages__item:last-child::after {
+	border: none;
+}
+
+.advantages__volume {
+	margin-bottom: 0 0 5px;
+	font-weight: 600;
+	font-size: clamp(2.75rem, 1.74rem + 1.15vw, 3.125rem);
+	text-align: center;
+	letter-spacing: 0.08em;
+}
+
+.advantages__value {
+	margin: 0;
+	font-size: clamp(0.875rem, -0.135rem + 1.15vw, 1.25rem);
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: lowercase;
+}

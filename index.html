@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DEVCLOUD SOLUTIONS</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+				<div class="header__logo header-logo">
+					<picture>
+						<source srcset="images/icons/logo-header@2x.webp 1x, images/icons/logo-header@2x.webp 2x" type="image/webp">
+						<img class="header-logo__img" src="images/icons/logo-header@1x.png"
+							srcset="images/icons/logo-header@2x.png 2x" width="268" height="51" alt="Логотип">
+					</picture>
+				</div>
+				<nav class="menu-nav">
+					<ul class="menu-nav__list">
+						<li class="menu-nav__item">
+							<a href="#" class="menu-nav__link">Главная</a>
+						</li>
+						<li class="menu-nav__item">
+							<a href="#services" class="menu-nav__link">Услуги</a>
+						</li>
+						<li class="menu-nav__item">
+							<a href="#" class="menu-nav__link">Как мы работаем</a>
+						</li>
+						<li class="menu-nav__item">
+							<a href="#!" class="menu-nav__link">Портфолио</a>
+						</li>
+						<li class="menu-nav__item">
+							<a href="#advantages" class="menu-nav__link">О нас</a>
+						</li>
+						<li class="menu-nav__item">
+							<a href="#contacts" class="menu-nav__link">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<main>
+
+		<section class="hero" id="hero">
+			<div class="hero__inner">
+				<h1 class="hero__title">Компания по разработке программного обеспечения</h1>
+				<a class="hero__btn button" href="#feedback">Запросить консультацию</a>
+				<a class="hero__nav-link" href="#advantages">
+					<svg class="hero__arrow" viewBox="0 0 50 80" xmlns="http://www.w3.org/2000/svg">
+						<g clip-path="url(#clip0_1_127)" filter="url(#filter0_d_1_127)">
+							<path d="M25 -18V71M25 71L5 44.6296M25 71L45 44.6296" stroke-width="2" />
+						</g>
+						<defs>
+							<filter id="filter0_d_1_127" x="-4" y="0" width="57.4288" height="79.1555" filterUnits="userSpaceOnUse"
+								color-interpolation-filters="sRGB">
+								<feFlood flood-opacity="0" result="BackgroundImageFix" />
+								<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+									result="hardAlpha" />
+								<feOffset dy="4" />
+								<feGaussianBlur stdDeviation="2" />
+								<feComposite in2="hardAlpha" operator="out" />
+								<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+								<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_127" />
+								<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_127" result="shape" />
+							</filter>
+							<clipPath id="clip0_1_127">
+								<rect width="49.4287" height="71.1555" />
+							</clipPath>
+						</defs>
+					</svg>
+				</a>
+			</div>
+		</section>
+
+		<section class="advantages" id="advantages">
+			<div class="container">
+				<h2 class="visually-hidden">Преимущества</h2>
+				<div class="advantages__inner">
+					<dl class="advantages__list">
+						<div class="advantages__item">
+							<dt class="advantages__volume">98%</dt>
+							<dd class="advantages__value">завершенных проектов успешно</dd>
+						</div>
+						<div class="advantages__item">
+							<dt class="advantages__volume">30</dt>
+							<dd class="advantages__value">календарных дней до первого релиза</dd>
+						</div>
+						<div class="advantages__item">
+							<dt class="advantages__volume">5+</dt>
+							<dd class="advantages__value">дней от идеи до готовой концепции</dd>
+						</div>
+						<div class="advantages__item">
+							<dt class="advantages__volume">+20%</dt>
+							<dd class="advantages__value">к эффективности бизнеса</dd>
+						</div>
+					</dl>
+				</div>
+			</div>
+		</section>
+
+		<section class="consult" id="consult">
+			<div class="container">
+				<h2 class="visually-hidden">Консультация</h2>
+				<div class="consult__card card">
+					<div class="consult__item">
+						<picture>
+							<source srcset="images/consult@1x.webp 1x, images/consult@2x.webp 2x" type="image/webp" width="710"
+								height="583">
+							<img class="consult__img" src="images/consult@1x.jpg" srcset="images/consult@2x.jpg 2x" width="710"
+								height="583" alt="Фото совещания в офисе">
+						</picture>
+					</div>
+					<div class="consult__item">
+						<p class="consult__quote">Гарантируем качество и выполнение в сроки</p>
+						<p class="consult__text">Мы просто умеем разрабатывать то, что нужно. То, что будет работать!</p>
+						<a class="consult__btn button" href="#feedback">Запросить консультацию</a>
+						<p class="consult__descript">С 2010 года профессионально разрабатываем успешные мобильные и веб-решения,
+							индивидуальные програ ммные решения, информационные системы и ПО для бизнеса, которые повышают
+							эффективность
+							бизнеса.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="services" id="services">
+			<div class="services__inner">
+				<div class="container">
+					<h2 class="services__title title">Основные услуги</h2>
+					<div class="services__card services-card">
+						<ul class="services-card__list">
+							<li class="services-card__item">
+								<h3 class="services-card__title">Разработка мобильных приложений</h3>
+								<p class="services-card__text">Мы создаем мобильные приложения, которые нравятся
+									пользователям.Воспользовавшись преимуществами искусственного интеллекта, машинного обучения, Интернета
+									вещей и других высокотехнологичных технологий для создания шедевров приложений, которые сохранятся.
+								</p>
+								<a class="services-card__link more-link">
+									<svg xmlns="http://www.w3.org/2000/svg" width="36" height="25" stroke="none">
+										<path
+											d="M9.914 3.02A12.442 12.442 0 0 1 18 0c6.052 0 11.077 4.5 11.623 10.303 3.582.506 6.377 3.505 6.377 7.186 0 4.041-3.37 7.261-7.454 7.261H8.507C3.843 24.75 0 21.073 0 16.465 0 12.5 2.849 9.214 6.62 8.381 6.94 6.44 8.19 4.504 9.914 3.02Zm1.469 1.703C9.68 6.192 8.789 7.963 8.789 9.349v1.008l-1.002.11c-3.143.344-5.537 2.925-5.537 5.998 0 3.301 2.768 6.035 6.257 6.035h20.039c2.909 0 5.204-2.277 5.204-5.01 0-2.737-2.295-5.014-5.204-5.014H27.42v-1.125C27.423 6.356 23.238 2.25 18 2.25c-2.43.01-4.777.887-6.617 2.475v-.002Z" />
+									</svg>
+									<p>Узнать больше</p>
+									<svg width="43" height="12" viewBox="0 0 43 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0.5 6.9191H41.5M41.5 6.9191L30.5 1.21973M41.5 6.9191L30.5 11.4786" />
+									</svg>
+								</a>
+							</li>
+							<li class="services-card__item">
+								<h3 class="services-card__title">Разработка программного обеспечения</h3>
+								<p class="services-card__text">Уже более 10 лет мы освоили лучшие веб-технологии для реализации
+									проектов,
+									в которые вложены инвестиции. Надежный лидер рынка в разработке высокопроизводительных веб-интерфейсов
+									для любого бизнеса.</p>
+								<a class="services-card__link more-link">
+									<svg xmlns="http://www.w3.org/2000/svg" width="36" height="25" stroke="none">
+										<path
+											d="M9.914 3.02A12.442 12.442 0 0 1 18 0c6.052 0 11.077 4.5 11.623 10.303 3.582.506 6.377 3.505 6.377 7.186 0 4.041-3.37 7.261-7.454 7.261H8.507C3.843 24.75 0 21.073 0 16.465 0 12.5 2.849 9.214 6.62 8.381 6.94 6.44 8.19 4.504 9.914 3.02Zm1.469 1.703C9.68 6.192 8.789 7.963 8.789 9.349v1.008l-1.002.11c-3.143.344-5.537 2.925-5.537 5.998 0 3.301 2.768 6.035 6.257 6.035h20.039c2.909 0 5.204-2.277 5.204-5.01 0-2.737-2.295-5.014-5.204-5.014H27.42v-1.125C27.423 6.356 23.238 2.25 18 2.25c-2.43.01-4.777.887-6.617 2.475v-.002Z" />
+									</svg>
+									<p>Узнать больше</p>
+									<svg width="43" height="12" viewBox="0 0 43 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0.5 6.9191H41.5M41.5 6.9191L30.5 1.21973M41.5 6.9191L30.5 11.4786" />
+									</svg>
+								</a>
+							</li>
+							<li class="services-card__item">
+								<h3 class="services-card__title">Разработка веб приложений</h3>
+								<p class="services-card__text">Мы не только идем в ногу с «тенденциями дизайна», но и ориентируемся на
+									пользователей, что делает наши услуги наиболее эффективными на всем рынке. Превосходство с 2010 года.
+									Создадим идеальное веб приложение именно для вас.</p>
+								<a class="services-card__link more-link">
+									<svg xmlns="http://www.w3.org/2000/svg" width="36" height="25" stroke="none">
+										<path
+											d="M9.914 3.02A12.442 12.442 0 0 1 18 0c6.052 0 11.077 4.5 11.623 10.303 3.582.506 6.377 3.505 6.377 7.186 0 4.041-3.37 7.261-7.454 7.261H8.507C3.843 24.75 0 21.073 0 16.465 0 12.5 2.849 9.214 6.62 8.381 6.94 6.44 8.19 4.504 9.914 3.02Zm1.469 1.703C9.68 6.192 8.789 7.963 8.789 9.349v1.008l-1.002.11c-3.143.344-5.537 2.925-5.537 5.998 0 3.301 2.768 6.035 6.257 6.035h20.039c2.909 0 5.204-2.277 5.204-5.01 0-2.737-2.295-5.014-5.204-5.014H27.42v-1.125C27.423 6.356 23.238 2.25 18 2.25c-2.43.01-4.777.887-6.617 2.475v-.002Z" />
+									</svg>
+									<p>Узнать больше</p>
+									<svg width="43" height="12" viewBox="0 0 43 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0.5 6.9191H41.5M41.5 6.9191L30.5 1.21973M41.5 6.9191L30.5 11.4786" />
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="projects">
+			<div class="container">
+				<h2 class="projects__title title">Наши проекты</h2>
+				<div class="projects__slider projects-slider swiper" id="swiper-project">
+					<div class="projects-slider__wrapper swiper-wrapper">
+						<div class="projects-slider__card card swiper-slide">
+							<div class="projects-slider__item">
+								<picture>
+									<source srcset="images/projects@1x.webp 1x, images/projects@2x.webp 2x" type="image/webp" width="586"
+										height="457">
+									<img class="projects-slider__img" src="images/projects@1x.jpg" srcset="images/projects@2x.jpg 2x"
+										width="586" height="457" alt="Открытая фотокнига">
+								</picture>
+							</div>
+							<div class="projects-slider__item">
+								<h3 class="projects-slider__title">Компания по производству фотокниг Fototeca</h3>
+								<p class="projects-slider__text">Программное решение, автоматизирующее производство изделий – от
+									создания
+									дизайна до выдачи клиенту. Была создана система, которая позволяет профессиональному фотографу –
+									клиенту
+									компании — формировать изделие (фотокнигу) в нужном формате и виде, оплатить и сразу передать заказ
+									в
+									производство.</p>
+								<a class="projects-card__link more-link">
+									<svg xmlns="http://www.w3.org/2000/svg" width="36" height="25" stroke="none">
+										<path
+											d="M9.914 3.02A12.442 12.442 0 0 1 18 0c6.052 0 11.077 4.5 11.623 10.303 3.582.506 6.377 3.505 6.377 7.186 0 4.041-3.37 7.261-7.454 7.261H8.507C3.843 24.75 0 21.073 0 16.465 0 12.5 2.849 9.214 6.62 8.381 6.94 6.44 8.19 4.504 9.914 3.02Zm1.469 1.703C9.68 6.192 8.789 7.963 8.789 9.349v1.008l-1.002.11c-3.143.344-5.537 2.925-5.537 5.998 0 3.301 2.768 6.035 6.257 6.035h20.039c2.909 0 5.204-2.277 5.204-5.01 0-2.737-2.295-5.014-5.204-5.014H27.42v-1.125C27.423 6.356 23.238 2.25 18 2.25c-2.43.01-4.777.887-6.617 2.475v-.002Z" />
+									</svg>
+									<p>Узнать больше</p>
+									<svg width="43" height="12" viewBox="0 0 43 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0.5 6.9191H41.5M41.5 6.9191L30.5 1.21973M41.5 6.9191L30.5 11.4786" />
+									</svg>
+								</a>
+							</div>
+						</div>
+						<div class="projects-slider__card card swiper-slide">
+							<div class="projects-slider__item">
+								<picture>
+									<source srcset="images/projects@1x.webp 1x, images/projects@2x.webp 2x" type="image/webp" width="586"
+										height="457">
+									<img class="projects-slider__img" src="images/projects@1x.jpg" srcset="images/projects@2x.jpg 2x"
+										width="586" height="457" alt="Открытая фотокнига">
+								</picture>
+							</div>
+							<div class="projects-slider__item">
+								<h3 class="projects-slider__title">Компания по производству фотокниг Fototeca</h3>
+								<p class="projects-slider__text">Программное решение, автоматизирующее производство изделий – от
+									создания
+									дизайна до выдачи клиенту. Была создана система, которая позволяет профессиональному фотографу –
+									клиенту
+									компании — формировать изделие (фотокнигу) в нужном формате и виде, оплатить и сразу передать заказ
+									в
+									производство.</p>
+								<a class="projets-card__link more-link">
+									<svg xmlns="http://www.w3.org/2000/svg" width="36" height="25" stroke="none">
+										<path
+											d="M9.914 3.02A12.442 12.442 0 0 1 18 0c6.052 0 11.077 4.5 11.623 10.303 3.582.506 6.377 3.505 6.377 7.186 0 4.041-3.37 7.261-7.454 7.261H8.507C3.843 24.75 0 21.073 0 16.465 0 12.5 2.849 9.214 6.62 8.381 6.94 6.44 8.19 4.504 9.914 3.02Zm1.469 1.703C9.68 6.192 8.789 7.963 8.789 9.349v1.008l-1.002.11c-3.143.344-5.537 2.925-5.537 5.998 0 3.301 2.768 6.035 6.257 6.035h20.039c2.909 0 5.204-2.277 5.204-5.01 0-2.737-2.295-5.014-5.204-5.014H27.42v-1.125C27.423 6.356 23.238 2.25 18 2.25c-2.43.01-4.777.887-6.617 2.475v-.002Z" />
+									</svg>
+									<p>Узнать больше</p>
+									<svg width="43" height="12" viewBox="0 0 43 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0.5 6.9191H41.5M41.5 6.9191L30.5 1.21973M41.5 6.9191L30.5 11.4786" />
+									</svg>
+								</a>
+							</div>
+						</div>
+						<div class="project-slider__card card swiper-slide">
+							<div class="projects-slider__item">
+								<picture>
+									<source srcset="images/projects@1x.webp 1x, images/projects@2x.webp 2x" type="image/webp" width="586"
+										height="457">
+									<img class="projects-slider__img" src="images/projects@1x.jpg" srcset="images/projects@2x.jpg 2x"
+										width="586" height="457" alt="Открытая фотокнига">
+								</picture>
+							</div>
+							<div class="projects-slider__item">
+								<h3 class="projects-slider__title">Компания по производству фотокниг Fototeca</h3>
+								<p class="projects-slider__text">Программное решение, автоматизирующее производство изделий – от
+									создания
+									дизайна до выдачи клиенту. Была создана система, которая позволяет профессиональному фотографу –
+									клиенту
+									компании — формировать изделие (фотокнигу) в нужном формате и виде, оплатить и сразу передать заказ
+									в
+									производство.</p>
+								<a class="projects-card__link more-link">
+									<svg xmlns="http://www.w3.org/2000/svg" width="36" height="25" stroke="none">
+										<path
+											d="M9.914 3.02A12.442 12.442 0 0 1 18 0c6.052 0 11.077 4.5 11.623 10.303 3.582.506 6.377 3.505 6.377 7.186 0 4.041-3.37 7.261-7.454 7.261H8.507C3.843 24.75 0 21.073 0 16.465 0 12.5 2.849 9.214 6.62 8.381 6.94 6.44 8.19 4.504 9.914 3.02Zm1.469 1.703C9.68 6.192 8.789 7.963 8.789 9.349v1.008l-1.002.11c-3.143.344-5.537 2.925-5.537 5.998 0 3.301 2.768 6.035 6.257 6.035h20.039c2.909 0 5.204-2.277 5.204-5.01 0-2.737-2.295-5.014-5.204-5.014H27.42v-1.125C27.423 6.356 23.238 2.25 18 2.25c-2.43.01-4.777.887-6.617 2.475v-.002Z" />
+									</svg>
+									<p>Узнать больше</p>
+									<svg width="43" height="12" viewBox="0 0 43 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0.5 6.9191H41.5M41.5 6.9191L30.5 1.21973M41.5 6.9191L30.5 11.4786" />
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+					<button class="projects__btn button" type="button">Посмотреть все проекты</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="process" id="process">
+			<div class="container">
+				<h2 class="process__title title">Наш процесс работы</h2>
+				<div class="process__slider process-slider swiper" id="swiper-process">
+					<div class="projects-slider__wrapper swiper-wrapper">
+						<div class="process-slider__card card swiper-slide">
+							<div class="process-slider__item">
+								<picture>
+									<source srcset="images/process@1x.webp 1x, images/process@2x.webp 2x" type="image/webp" width="586"
+										height="457">
+									<img class="process-slider__img" src="images/process@1x.jpg" srcset="images/process@2x.jpg 2x"
+										width="710" height="449" alt="Открытая фотокнига">
+								</picture>
+							</div>
+							<div class="process-slider__item">
+								<h3 class="process-slider__title">1. Мастерская открытий</h3>
+								<p class="process-slider__text">Мы придаем первостепенное значение пониманию и документированию входов,
+									предпочтений клиентов, дизайна и брендов. И проясните все открытые моменты, чтобы получить точное и
+									ясное
+									представление о целях как клиентов, так и проекта. Мы работаем в рамках совместного подхода с участием
+									заинтересованных сторон, чтобы согласовать бизнес-процессы.</p>
+								<a class="process-card__link more-link">
+									<svg xmlns="http://www.w3.org/2000/svg" width="36" height="25" stroke="none">
+										<path
+											d="M9.914 3.02A12.442 12.442 0 0 1 18 0c6.052 0 11.077 4.5 11.623 10.303 3.582.506 6.377 3.505 6.377 7.186 0 4.041-3.37 7.261-7.454 7.261H8.507C3.843 24.75 0 21.073 0 16.465 0 12.5 2.849 9.214 6.62 8.381 6.94 6.44 8.19 4.504 9.914 3.02Zm1.469 1.703C9.68 6.192 8.789 7.963 8.789 9.349v1.008l-1.002.11c-3.143.344-5.537 2.925-5.537 5.998 0 3.301 2.768 6.035 6.257 6.035h20.039c2.909 0 5.204-2.277 5.204-5.01 0-2.737-2.295-5.014-5.204-5.014H27.42v-1.125C27.423 6.356 23.238 2.25 18 2.25c-2.43.01-4.777.887-6.617 2.475v-.002Z" />
+									</svg>
+									<p>Узнать больше</p>
+									<svg width="43" height="12" viewBox="0 0 43 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0.5 6.9191H41.5M41.5 6.9191L30.5 1.21973M41.5 6.9191L30.5 11.4786" />
+									</svg>
+								</a>
+							</div>
+						</div>
+						<div class="process-slider__card card swiper-slide">
+							<div class="process-slider__item">
+								<picture>
+									<source srcset="images/process@1x.webp 1x, images/process@2x.webp 2x" type="image/webp" width="586"
+										height="457">
+									<img class="process-slider__img" src="images/process@1x.jpg" srcset="images/process@2x.jpg 2x"
+										width="710" height="449" alt="Открытая фотокнига">
+								</picture>
+							</div>
+							<div class="process-slider__item">
+								<h3 class="process-slider__title">2. Мастерская открытий</h3>
+								<p class="process-slider__text">Мы придаем первостепенное значение пониманию и документированию входов,
+									предпочтений клиентов, дизайна и брендов. И проясните все открытые моменты, чтобы получить точное и
+									ясное
+									представление о целях как клиентов, так и проекта. Мы работаем в рамках совместного подхода с участием
+									заинтересованных сторон, чтобы согласовать бизнес-процессы.</p>
+								<a class="process-card__link more-link">
+									<svg xmlns="http://www.w3.org/2000/svg" width="36" height="25" stroke="none">
+										<path
+											d="M9.914 3.02A12.442 12.442 0 0 1 18 0c6.052 0 11.077 4.5 11.623 10.303 3.582.506 6.377 3.505 6.377 7.186 0 4.041-3.37 7.261-7.454 7.261H8.507C3.843 24.75 0 21.073 0 16.465 0 12.5 2.849 9.214 6.62 8.381 6.94 6.44 8.19 4.504 9.914 3.02Zm1.469 1.703C9.68 6.192 8.789 7.963 8.789 9.349v1.008l-1.002.11c-3.143.344-5.537 2.925-5.537 5.998 0 3.301 2.768 6.035 6.257 6.035h20.039c2.909 0 5.204-2.277 5.204-5.01 0-2.737-2.295-5.014-5.204-5.014H27.42v-1.125C27.423 6.356 23.238 2.25 18 2.25c-2.43.01-4.777.887-6.617 2.475v-.002Z" />
+									</svg>
+									<p>Узнать больше</p>
+									<svg width="43" height="12" viewBox="0 0 43 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0.5 6.9191H41.5M41.5 6.9191L30.5 1.21973M41.5 6.9191L30.5 11.4786" />
+									</svg>
+								</a>
+							</div>
+						</div>
+						<div class="process-slider__card card swiper-slide">
+							<div class="process-slider__item">
+								<picture>
+									<source srcset="images/process@1x.webp 1x, images/process@2x.webp 2x" type="image/webp" width="586"
+										height="457">
+									<img class="process-slider__img" src="images/process@1x.jpg" srcset="images/process@2x.jpg 2x"
+										width="710" height="449" alt="Открытая фотокнига">
+								</picture>
+							</div>
+							<div class="process-slider__item">
+								<h3 class="process-slider__title">3. Мастерская открытий</h3>
+								<p class="process-slider__text">Мы придаем первостепенное значение пониманию и документированию входов,
+									предпочтений клиентов, дизайна и брендов. И проясните все открытые моменты, чтобы получить точное и
+									ясное
+									представление о целях как клиентов, так и проекта. Мы работаем в рамках совместного подхода с участием
+									заинтересованных сторон, чтобы согласовать бизнес-процессы.</p>
+								<a class="process-card__link more-link">
+									<svg xmlns="http://www.w3.org/2000/svg" width="36" height="25" stroke="none">
+										<path
+											d="M9.914 3.02A12.442 12.442 0 0 1 18 0c6.052 0 11.077 4.5 11.623 10.303 3.582.506 6.377 3.505 6.377 7.186 0 4.041-3.37 7.261-7.454 7.261H8.507C3.843 24.75 0 21.073 0 16.465 0 12.5 2.849 9.214 6.62 8.381 6.94 6.44 8.19 4.504 9.914 3.02Zm1.469 1.703C9.68 6.192 8.789 7.963 8.789 9.349v1.008l-1.002.11c-3.143.344-5.537 2.925-5.537 5.998 0 3.301 2.768 6.035 6.257 6.035h20.039c2.909 0 5.204-2.277 5.204-5.01 0-2.737-2.295-5.014-5.204-5.014H27.42v-1.125C27.423 6.356 23.238 2.25 18 2.25c-2.43.01-4.777.887-6.617 2.475v-.002Z" />
+									</svg>
+									<p>Узнать больше</p>
+									<svg width="43" height="12" viewBox="0 0 43 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0.5 6.9191H41.5M41.5 6.9191L30.5 1.21973M41.5 6.9191L30.5 11.4786" />
+									</svg>
+								</a>
+							</div>
+						</div>
+						<div class="process-slider__card card swiper-slide">
+							<div class="process-slider__item">
+								<picture>
+									<source srcset="images/process@1x.webp 1x, images/process@2x.webp 2x" type="image/webp" width="586"
+										height="457">
+									<img class="process-slider__img" src="images/process@1x.jpg" srcset="images/process@2x.jpg 2x"
+										width="710" height="449" alt="Открытая фотокнига">
+								</picture>
+							</div>
+							<div class="process-slider__item">
+								<h3 class="process-slider__title">4. Мастерская открытий</h3>
+								<p class="process-slider__text">Мы придаем первостепенное значение пониманию и документированию входов,
+									предпочтений клиентов, дизайна и брендов. И проясните все открытые моменты, чтобы получить точное и
+									ясное
+									представление о целях как клиентов, так и проекта. Мы работаем в рамках совместного подхода с участием
+									заинтересованных сторон, чтобы согласовать бизнес-процессы.</p>
+								<a class="process-card__link more-link">
+									<svg xmlns="http://www.w3.org/2000/svg" width="36" height="25" stroke="none">
+										<path
+											d="M9.914 3.02A12.442 12.442 0 0 1 18 0c6.052 0 11.077 4.5 11.623 10.303 3.582.506 6.377 3.505 6.377 7.186 0 4.041-3.37 7.261-7.454 7.261H8.507C3.843 24.75 0 21.073 0 16.465 0 12.5 2.849 9.214 6.62 8.381 6.94 6.44 8.19 4.504 9.914 3.02Zm1.469 1.703C9.68 6.192 8.789 7.963 8.789 9.349v1.008l-1.002.11c-3.143.344-5.537 2.925-5.537 5.998 0 3.301 2.768 6.035 6.257 6.035h20.039c2.909 0 5.204-2.277 5.204-5.01 0-2.737-2.295-5.014-5.204-5.014H27.42v-1.125C27.423 6.356 23.238 2.25 18 2.25c-2.43.01-4.777.887-6.617 2.475v-.002Z" />
+									</svg>
+									<p>Узнать больше</p>
+									<svg width="43" height="12" viewBox="0 0 43 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0.5 6.9191H41.5M41.5 6.9191L30.5 1.21973M41.5 6.9191L30.5 11.4786" />
+									</svg>
+								</a>
+							</div>
+						</div>
+						<div class="process-slider__card card swiper-slide">
+							<div class="process-slider__item">
+								<picture>
+									<source srcset="images/process@1x.webp 1x, images/process@2x.webp 2x" type="image/webp" width="586"
+										height="457">
+									<img class="process-slider__img" src="images/process@1x.jpg" srcset="images/process@2x.jpg 2x"
+										width="710" height="449" alt="Открытая фотокнига">
+								</picture>
+							</div>
+							<div class="process-slider__item">
+								<h3 class="process-slider__title">5. Мастерская открытий</h3>
+								<p class="process-slider__text">Мы придаем первостепенное значение пониманию и документированию входов,
+									предпочтений клиентов, дизайна и брендов. И проясните все открытые моменты, чтобы получить точное и
+									ясное
+									представление о целях как клиентов, так и проекта. Мы работаем в рамках совместного подхода с участием
+									заинтересованных сторон, чтобы согласовать бизнес-процессы.</p>
+								<a class="process-card__link more-link">
+									<svg xmlns="http://www.w3.org/2000/svg" width="36" height="25" stroke="none">
+										<path
+											d="M9.914 3.02A12.442 12.442 0 0 1 18 0c6.052 0 11.077 4.5 11.623 10.303 3.582.506 6.377 3.505 6.377 7.186 0 4.041-3.37 7.261-7.454 7.261H8.507C3.843 24.75 0 21.073 0 16.465 0 12.5 2.849 9.214 6.62 8.381 6.94 6.44 8.19 4.504 9.914 3.02Zm1.469 1.703C9.68 6.192 8.789 7.963 8.789 9.349v1.008l-1.002.11c-3.143.344-5.537 2.925-5.537 5.998 0 3.301 2.768 6.035 6.257 6.035h20.039c2.909 0 5.204-2.277 5.204-5.01 0-2.737-2.295-5.014-5.204-5.014H27.42v-1.125C27.423 6.356 23.238 2.25 18 2.25c-2.43.01-4.777.887-6.617 2.475v-.002Z" />
+									</svg>
+									<p>Узнать больше</p>
+									<svg width="43" height="12" viewBox="0 0 43 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0.5 6.9191H41.5M41.5 6.9191L30.5 1.21973M41.5 6.9191L30.5 11.4786" />
+									</svg>
+								</a>
+							</div>
+						</div>
+						<div class="process-slider__card card swiper-slide">
+							<div class="process-slider__item">
+								<picture>
+									<source srcset="images/process@1x.webp 1x, images/process@2x.webp 2x" type="image/webp" width="586"
+										height="457">
+									<img class="process-slider__img" src="images/process@1x.jpg" srcset="images/process@2x.jpg 2x"
+										width="710" height="449" alt="Открытая фотокнига">
+								</picture>
+							</div>
+							<div class="process-slider__item">
+								<h3 class="process-slider__title">6. Мастерская открытий</h3>
+								<p class="process-slider__text">Мы придаем первостепенное значение пониманию и документированию входов,
+									предпочтений клиентов, дизайна и брендов. И проясните все открытые моменты, чтобы получить точное и
+									ясное
+									представление о целях как клиентов, так и проекта. Мы работаем в рамках совместного подхода с участием
+									заинтересованных сторон, чтобы согласовать бизнес-процессы.</p>
+								<a class="process-card__link more-link">
+									<svg xmlns="http://www.w3.org/2000/svg" width="36" height="25" stroke="none">
+										<path
+											d="M9.914 3.02A12.442 12.442 0 0 1 18 0c6.052 0 11.077 4.5 11.623 10.303 3.582.506 6.377 3.505 6.377 7.186 0 4.041-3.37 7.261-7.454 7.261H8.507C3.843 24.75 0 21.073 0 16.465 0 12.5 2.849 9.214 6.62 8.381 6.94 6.44 8.19 4.504 9.914 3.02Zm1.469 1.703C9.68 6.192 8.789 7.963 8.789 9.349v1.008l-1.002.11c-3.143.344-5.537 2.925-5.537 5.998 0 3.301 2.768 6.035 6.257 6.035h20.039c2.909 0 5.204-2.277 5.204-5.01 0-2.737-2.295-5.014-5.204-5.014H27.42v-1.125C27.423 6.356 23.238 2.25 18 2.25c-2.43.01-4.777.887-6.617 2.475v-.002Z" />
+									</svg>
+									<p>Узнать больше</p>
+									<svg width="43" height="12" viewBox="0 0 43 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0.5 6.9191H41.5M41.5 6.9191L30.5 1.21973M41.5 6.9191L30.5 11.4786" />
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="process-slider__pagination swiper-pagination"></div>
+				</div>
+			</div>
+		</section>
+
+		<section class="tools">
+			<div class="container">
+				<h2 class="tools__title title">Инструменты и технологии</h2>
+				<div class="tools__inner">
+					<img class="tools__img" src="images/icons/react.svg" alt="React">
+					<img class="tools__img" src="images/icons/xamarin.svg" alt="Xamarin">
+					<img class="tools__img" src="images/icons/java.svg" alt="Java">
+					<img class="tools__img" src="images/icons/csharp.svg" alt="C_Sharp">
+					<img class="tools__img" src="images/icons/python.svg" alt="Python">
+					<img class="tools__img" src="images/icons/swift.svg" alt="Swift">
+					<img class="tools__img" src="images/icons/sql.svg" alt="SQL">
+					<img class="tools__img" src="images/icons/javascript.svg" alt="JavaScript">
+					<img class="tools__img" src="images/icons/file.svg" alt="File">
+					<img class="tools__img" src="images/icons/vuejs.svg" alt="Vue.JS">
+					<img class="tools__img" src="images/icons/html.svg" alt="HTML">
+					<img class="tools__img" src="images/icons/css.svg" alt="CSS">
+					<img class="tools__img" src="images/icons/objectivec.svg" alt="Objectivec">
+					<img class="tools__img" src="images/icons/postgresql.svg" alt="PostgreSQL">
+					<img class="tools__img" src="images/icons/wpf.svg" alt="WPF">
+					<img class="tools__img" src="images/icons/oracle.svg" alt="Oracle">
+					<img class="tools__img" src="images/icons/mysql.svg" alt="MySQL">
+				</div>
+			</div>
+		</section>
+
+		<section class="feedback" id="feedback">
+			<h2 class="visually-hidden">Обратная связь</h2>
+			<div class="feedback__inner">
+				<div class="feedback__support">
+					<img class="feedback__img" src="images/icons/avatar@1x.png" alt="Иконка Юрия Архипова">
+					<p class="feedback__text-name">Юрий Архипов</p>
+					<p class="feedback__text-post">Директор ТОО "Copyland"</p>
+					<p class="feedback__text-quote">Разработана очень удобная система приема и обработки заказов, с ней реально
+						высвобождается огромное количество ресурсов.</p>
+					<img class="feedback__icon" src="images/icons/stars@1x.png" alt="Иконка рейтинга 5 звёзд">
+					<p class="feedback__text-date">21.06.28</p>
+				</div>
+				<form class="feedback__form feedback-form" action="#" method="post">
+					<h3 class="feedback-form__title">Есть вопросы? Задавайте!</h3>
+					<label class="visually-hidden" for="name">Имя</label>
+					<input class="feedback-form__input" type="text" id="name" placeholder="Имя">
+					<div class="feedback-form__item">
+						<label class="visually-hidden" for="email">E-mail</label>
+						<input class="feedback-form__input" type="email" id="email" placeholder="E-mail">
+						<label class="visually-hidden" for="phone">Телефон</label>
+						<input class="feedback-form__input" type="tel" id="phone" placeholder="Телефон">
+					</div>
+					<div class="feedback-form__inner">
+						<label class="feedback-form__label" for="textarea">Message</label>
+						<textarea class="feedback-form__textarea" name="comment" id="textarea" rows="5"
+							placeholder="Напишите своё сообщение..."></textarea>
+						<div class="feedback-form__item">
+							<button class="feedback-form__textarea-btn" type="submit">
+								<img src="./images/icons/telegram-btn.svg" alt="Отправить сообщение в Телеграмм">
+							</button>
+							<button class="feedback-form__textarea-btn" type="submit">
+								<img src="./images/icons/file-btn.svg" alt="Отправить файл">
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__inner">
+				<div class="footer__item">
+					<a class="footer__logo footer-logo" href="#hero">
+						<picture>
+							<source srcset="images/icons/logo-footer@2x.webp 1x, images/icons/logo-footer@2x.webp 2x"
+								type="image/webp">
+							<img class="footer-logo__img" src="images/icons/logo-footer@1x.png 1x"
+								srcset="images/icons/logo-footer@2x.png 2x" width="329" height="63" alt="Логотип">
+						</picture>
+					</a>
+					<div class="footer__addres">Алматы, Жамбыла 111</div>
+				</div>
+				<div class="footer__item">
+					<div class="footer__contacts footer-contacts" id="contacts">
+						<div class="footer-contacts__phone">
+							<a class="footer-contacts__tel" href="tel:+77273342145">​+7 (727) 334-21-45​</a>
+							<a class="footer-contacts__tel" href="tel:+77079989390">+7 (707) 998-93-90</a>
+						</div>
+						<a class="footer-contacts__email" href="mailto:info@devcloud.kz">info@devcloud.kz</a>
+						<div class="footer-contacts__social">
+							<a class="footer-contacts__social-link" href="#!">Whatsapp</a>
+							<a class="footer-contacts__social-link" href="#!">Telegram</a>
+						</div>
+					</div>
+				</div>
+				<div class="footer__menu footer-menu">
+					<ul class="footer-menu__list">
+						<div class="footer__item">
+							<li class="footer-menu__item">
+								<a class="footer-menu__link" href="#hero">Главная</a>
+							</li>
+							<li class="footer-menu__item">
+								<a class="footer-menu__link" href="#!">Портфолио</a>
+							</li>
+							<li class="footer-menu__item">
+								<a class="footer-menu__link" href="#services">Услуги</a>
+							</li>
+						</div>
+						<div class="footer__item">
+							<li class="footer-menu__item">
+								<a class="footer-menu__link" href="#process">Процессы</a>
+							</li>
+							<li class="footer-menu__item">
+								<a class="footer-menu__link" href="#advantages">О компании</a>
+							</li>
+							<li class="footer-menu__item">
+								<a class="footer-menu__link" href="#contacts">Контакты</a>
+							</li>
+						</div>
+					</ul>
+				</div>
+				<div class="footer__item">
+					<a class="footer__nav-link">
+						<svg class="footer__arrow" width="34" height="57" viewBox="0 0 34 57" fill="none"
+							xmlns="http://www.w3.org/2000/svg">
+							<path d="M17 57.3999L17 1.08562M17 1.08562L33 17.7713M17 1.08562L1 17.7713" stroke="black" />
+						</svg>
+					</a>
+				</div>
+			</div>
+			<div class="footer__copy">© Devcloud Solutions, Inc. 2021. We love our users!</div>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="./js/index.js"></script>
+</body>
+
+</html>

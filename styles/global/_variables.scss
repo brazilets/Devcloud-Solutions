@@ -1,0 +1,30 @@
+// FONTS
+
+$font: "Open Sans", sans-serif;
+
+// COLOR
+
+$base-color: #000000;
+$secondary-color: #ffffff;
+$accent-color: #29a28c;
+
+$header-bg: rgba(41, 162, 140, 0.11);
+$hero-bg: rgba(1, 12, 35, 0.65);
+$support-bg: rgba(2, 123, 102, 0.1);
+$form-bg: linear-gradient(217deg, #25ba9f 0%, #1b7f6d 50.47%, #157161 73.06%, #09463b 98.43%);
+
+$shadow: rgba(152, 152, 152, 0.56);
+$shadow-accent: rgba(3, 74, 62, 0.56);
+
+$color-placeholder: rgba(255, 255, 255, 0.46);
+
+$color-copyright: #bdbdbd;
+
+// COLOR-UI
+
+$color-dim-gray: #6c6c6c;
+$color-matterhorn: #515151;
+
+// MARGIN
+
+$margin-blocks: clamp(1.875rem, -0.469rem + 11.72vw, 11.25rem);

@@ -1,0 +1,63 @@
+.hero {
+	margin-top: -78px;
+	margin-bottom: $margin-blocks;
+	display: flex;
+	flex-direction: column;
+	height: 102vh;
+	background-color: $hero-bg;
+	background-image:
+		linear-gradient(to top, rgba(1, 12, 35, 0.65), rgba(1, 12, 35, 0.65)),
+		image-set(url("../images/hero-bg@1x.jpg") type("image/jpg"),
+			url("../images/hero-bg@2x.jpg") type("image/jpg") 2x,
+			url("../images/hero-bg@1x.webp") type("image/webp"),
+			url("../images/hero-bg@1x.webp") type("image/webp") 2x);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+}
+
+.hero__title {
+	width: clamp(55rem, -49.327rem + 119.23vw, 93.75rem);
+	margin: 0 auto 120px;
+	padding-top: clamp(19.375rem, 0.865rem + 19.15vw, 26.25rem);
+	font-size: clamp(2.938rem, -0.428rem + 3.85vw, 4.188rem);
+	line-height: clamp(4rem, 0.635rem + 3.85vw, 5.25rem);
+	font-weight: 400;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	text-align: center;
+	color: $secondary-color;
+}
+
+.hero__btn {
+	margin: 0 auto;
+	margin-bottom: clamp(7.5rem, -2.596rem + 11.54vw, 11.25rem);
+	width: clamp(17.375rem, -16.279rem + 38.46vw, 29.875rem);
+	height: clamp(2.875rem, -2.173rem + 5.77vw, 4.75rem);
+	padding: clamp(0.75rem, -0.26rem + 1.15vw, 1.125rem);
+	line-height: clamp(1.375rem, -0.644rem + 2.31vw, 2.125rem);
+	letter-spacing: 8%;
+	text-align: center;
+	background-color: transparent;
+	border: 1px solid $secondary-color;
+}
+
+.hero__btn:hover {
+	background-color: $accent-color;
+	border: none;
+}
+
+.hero__arrow {
+	display: block;
+	margin: 0 auto;
+	height: clamp(4.375rem, -0.673rem + 5.77vw, 6.25rem);
+	background-color: transparent;
+	stroke: $secondary-color;
+	cursor: pointer;
+	transition: all 0.3s ease-in;
+}
+
+.hero__arrow:hover {
+	height: clamp(5rem, -1.731rem + 7.69vw, 7.5rem);
+	stroke: $accent-color;
+}

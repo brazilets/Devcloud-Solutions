@@ -1,0 +1,14 @@
+.more-link {
+	display: flex;
+	align-items: center;
+	gap: clamp(0.625rem, -0.208rem + 1.11vw, 1.125rem);
+	stroke: $base-color;
+	fill: $base-color;
+	cursor: pointer;
+}
+
+.more-link:hover {
+	color: $accent-color;
+	fill: $accent-color;
+	stroke: $accent-color;
+}

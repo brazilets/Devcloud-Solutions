@@ -1,0 +1,34 @@
+.menu-nav__list {
+	display: flex;
+	flex-wrap: wrap;
+	letter-spacing: 0.03em;
+	gap: 20px clamp(1.25rem, -3.333rem + 6.11vw, 4rem);
+	list-style: none;
+}
+
+.menu-nav__item:nth-child(2) {
+	position: relative;
+	margin-right: 16px;
+}
+
+.menu-nav__item:nth-child(2)::after {
+	content: "";
+	background-image: url("../../images/icons/services-arrow.svg");
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 12px;
+	height: 8px;
+	top: 11px;
+	right: -16px;
+	cursor: pointer;
+}
+
+.menu-nav__link {
+	font-size: clamp(1rem, 0.167rem + 1.11vw, 1.5rem);
+	letter-spacing: 0.03em;
+	color: $secondary-color;
+}
+
+.menu-nav__link:hover {
+	color: $accent-color;
+}

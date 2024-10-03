@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+svg path {
+	stroke: inherit;
+	stroke-width: inherit;
+	fill: inherit;
+}
+
+body {
+	margin: 0;
+	font-family: $font;
+	font-size: 18px;
+	font-weight: 400;
+	color: $base-color;
+}

@@ -1,0 +1,69 @@
+.consult__card {
+	margin-bottom: $margin-blocks;
+}
+
+.consult__item {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.consult__img {
+	width: clamp(38.125rem, 27.708rem + 13.89vw, 44.375rem);
+	height: clamp(33.313rem, 28.104rem + 6.94vw, 36.438rem);
+}
+
+.consult__quote {
+	position: relative;
+	font-weight: 700;
+	font-size: clamp(1.75rem, -3.5rem + 6vw, 2.5rem);
+	letter-spacing: 0.04em;
+	text-align: center;
+}
+
+.consult__quote::before,
+.consult__quote::after {
+	content: "";
+	position: absolute;
+	background-image: url("../../images/icons/marks.svg");
+	width: 60px;
+	height: 60px;
+}
+
+.consult__quote::before {
+	left: 0;
+	bottom: -30px;
+}
+
+.consult__quote::after {
+	top: -40px;
+	right: -20px;
+	transform: rotate(180deg);
+}
+
+.consult__text {
+	padding: 0 70px;
+	margin-bottom: clamp(1.25rem, -0.433rem + 1.92vw, 1.875rem);
+	font-size: clamp(1.25rem, 0.24rem + 1.15vw, 1.625rem);
+	letter-spacing: 0.03em;
+	text-align: center;
+}
+
+.consult__btn {
+	margin: 0 auto clamp(3.125rem, -1.923rem + 5.77vw, 5rem);
+	width: clamp(17.375rem, -16.279rem + 38.46vw, 29.875rem);
+	height: clamp(2.875rem, -2.173rem + 5.77vw, 4.75rem);
+	padding: clamp(0.75rem, -0.26rem + 1.15vw, 1.125rem);
+	line-height: clamp(1.375rem, -0.644rem + 2.31vw, 2.125rem);
+	letter-spacing: -0.01em;
+	text-align: center;
+}
+
+.consult__descript {
+	padding: 0 20px;
+	font-weight: 300;
+	font-size: clamp(0.813rem, -1.375rem + 2.5vw, 1.125rem);
+	line-height: 20px;
+	letter-spacing: 0.09em;
+	text-align: center;
+}
